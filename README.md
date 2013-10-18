@@ -4,12 +4,16 @@ This is a simple note's app, just to let the conversation flows, for no reason.
 I'm using this to make annotations and tell people of my company what i'm working on, it's just a very simple dashboard with project updates.  
 Not very useful at all. 
 
+---
+
 ### Getting Started
 
 1 - `git clone git@github.com:fidelisrafael/burnin.git && cd burnin`    
 2 - run `npm install` in root of cloned repository  
 3 - run `ace`   
 4 - Open `http://0.0.0.0:1982/`
+
+--- 
 
 ### Technology Colophon
 
@@ -22,6 +26,8 @@ This projects use :
 5 - [strftime][strftime]    
 6 - [Tuktuk - *Simple (but powerful) RWD Framework*][tuktuk] 	
 7 - [Daft Punk Burnin' - Cuz we love music :)][burnin]
+
+---
 
 ### TODO
 
@@ -38,6 +44,18 @@ This projects use :
 [eco]: https://github.com/sstephenson/eco
 [ace]: https://github.com/maccman/ace
 
+---
+
+### Screenshots
+
+![](http://i.imgur.com/TOEtACU.png)     
+
+![](http://i.imgur.com/effxwHG.png)     
+
+![](http://i.imgur.com/81pV3Ux.png)
+
+---
+
 ### How to Contribute
 
 ##### Pull Requests
@@ -45,6 +63,8 @@ This projects use :
 **1** Fork the `burnin` repository	
 **2.** Create a new branch for each feature or improvement	
 **3.** Send a pull request from each feature branch to the develop branch	
+
+---
 
 ### License
 
