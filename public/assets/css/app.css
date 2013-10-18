@@ -1,0 +1,157 @@
+body ,html {
+  margin:0;
+  padding:0;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif !important;
+}
+input.full_w , textarea.full_w , .full_w{
+  width:100%  !important;
+  border: 0 !important;
+  background: 0 !important;
+  color:#ffffff !important;
+}
+textarea.full_w {
+  height:300px !important;
+}
+form button.secondary {
+  color:#333333 !important;
+  background-color:#fafafa !important;
+  margin-bottom:10px;
+}
+.main-header {
+  background: #333333;
+  display: inline-block ; /* Necessary to trigger "hasLayout" in IE */
+  display: block;
+  overflow: hidden;
+}
+.logo {
+  padding:1.4%;
+}
+.logo .logo-animation {
+  width:360px;
+  height:360px;
+  background: url('/assets/imgs/burnin_sprite.png') no-repeat;
+  background-position: 0 0;
+  display: inline-block;
+
+  -webkit-animation: burninFlame 1.6s steps(9) infinite;
+  -moz-animation: burninFlame 1.6s steps(9) infinite;
+  -ms-animation: burninFlame 1.6s steps(9) infinite;
+  -o-animation: burninFlame 1.6s steps(9) infinite;
+  animation: burninFlame 1.6s steps(9) infinite;
+}
+
+.app-name {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px -2px 1px rgb(255, 170, 163) , 3px 2px 6px rgb(206, 126, 171), -1px 4px rgb(238, 117, 117);
+  font-size: 5em;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  text-decoration: none;
+
+  -webkit-animation: pulseAnimation 5s infinite;
+}
+
+.clearfix:after { 
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden; 
+}
+.clearfix { 
+  display: inline-block;  
+}
+* html .clearfix {  
+  height: 1%;  
+} /* Hides from IE-mac \*/
+.clearfix {  
+  display: block;  
+}
+
+.bg-modal {
+  position:fixed;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index: 90;
+  background: rgba(0,0,0,0.8);
+}
+
+.modal {
+  position:fixed;
+  z-index:100;
+  width:100%;
+}
+
+.modal-content .text {
+  color:#ffffff;
+  font-size:2em;
+}
+
+.bg-modal , .modal{
+  display: none;
+}
+
+#app {
+  background: rgb(240,240,240);
+}
+.close-modal {
+  background: #e74c3c !important;
+  color:#ffffff !important;
+}
+.messages-list {
+  list-style: none;
+}
+.messages-list li {
+  padding:20px !important;
+}
+.messages-list li:nth-child(odd) {
+  background: rgba(0,0,0,0.1);
+}
+.messages-list li p {
+  line-height: 30px;
+}
+
+
+.heart {
+  color:red;
+  font-size: 1.4em;
+}
+.transition-all {
+  -webkit-transition:all 0.5s;
+  -moz-transition:all 0.5s;
+  -o-transition:all 0.5s;
+  -ms-transition:all 0.5s;
+  transition:all 0.5s;
+}
+.main-footer {
+background: #333333;
+color: #fafafa;
+padding:20px;
+}
+a,a:visited {
+color:#fafafa !important;
+}
+    
+@-webkit-keyframes pulseAnimation {
+   0% {opacity: 1;}
+   50% {opacity: 0.8;}
+   100% {opacity: 1;}
+}
+
+@-webkit-keyframes burninFlame {
+  from {background-position: 0; }
+  to { background-position: -3240px;}
+
+}
+@-moz-keyframes burninFlame {
+  from {background-position: 0;}
+  to { background-position: -3240px;}
+}
+@-ms-keyframes burninFlame {
+  from {background-position: 0;}
+  to { background-position: -3240px;}
+}
+@-o-keyframes burninFlame {
+  from {background-position: 0;}
+  to { background-position: -3240px;}
+}

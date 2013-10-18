@@ -1,0 +1,13 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "author": "maccman",
+  "dependencies": {
+    "ace": "git://github.com/maccman/ace.git#master",
+    "coffee-script": "latest",
+    "eco": "latest",
+    "sequelize-sqlite": "latest",
+    "sqlite3": "latest",
+    "strftime": "latest"
+  }
+}

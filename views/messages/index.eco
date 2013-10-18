@@ -1,0 +1,12 @@
+<section class="row padding">
+	<div class="column_9">
+		<h1 class="text bold margin-bottom">Mensagens</h1>
+		<ul class="messages-list">
+		 	<% for message in @messages: %>
+		 	    <li>
+		 	    	<%- message.toHTML() %>
+		 	    </li>
+		 	  <% end %>
+		 </ul>
+	</div>
+</section>

@@ -1,0 +1,5 @@
+<section class="row padding">
+	<div class="column_9">
+		<%- @message.toHTML() %>
+	</div>
+</section>
