@@ -34,7 +34,8 @@ This projects use :
 1 - Remove the `!important`s from app CSS (tuktuk is a little bit fuzzy)  
 2 - Allow to create users account   
 3 - Tests :|    
-4 - Implement a better HTML escaping
+4 - Implement a better HTML escaping	
+5 -	Better date display :)
 
 [burnin]: http://www.youtube.com/watch?v=DBHipNYuAZk
 [tuktuk]: tuktuk.tapquo.com/
