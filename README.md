@@ -9,9 +9,11 @@ Not very useful at all.
 ### Getting Started
 
 1 - `git clone git@github.com:fidelisrafael/burnin.git && cd burnin`    
-2 - run `npm install` in root of cloned repository  
-3 - run `ace`   
-4 - Open `http://0.0.0.0:1982/`
+2 - run `npm install` in root of cloned repository  	
+3 - `mkdir db`		
+4 - run `ace`   	
+5 - Open `http://0.0.0.0:1982/`		
+6 - Press any keyboard key to display new message's form
 
 --- 
 
