@@ -13,7 +13,10 @@ Not very useful at all.
 3 - `mkdir db`		
 4 - run `ace`   	
 5 - Open `http://0.0.0.0:1982/`		
-6 - Press any keyboard key to display new message's form
+6 - Login with: 	
+	**user:** `user`
+	**password:** `m4k3u557r0n63r`	
+7 - Press any keyboard key to display new message's form
 
 --- 
 
